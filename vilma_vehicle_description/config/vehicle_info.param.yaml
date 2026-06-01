@@ -1,7 +1,8 @@
 /**:
   ros__parameters:
-    wheel_radius: 0.383 # The radius of the wheel, primarily used for dead reckoning.
-    wheel_width: 0.235 # The lateral width of a wheel tire, primarily used for dead reckoning.
+    # Tire: 195/60 R15 88H
+    wheel_radius: 0.3075 # The radius of the wheel, primarily used for dead reckoning. [ok]
+    wheel_width: 0.195 # The lateral width of a wheel tire, primarily used for dead reckoning. [ok]
     wheel_base: 2.51 # between front wheel center and rear wheel center [ok]
     wheel_tread: 1.471 # between left wheel center and right wheel center [ok]
     front_overhang: 0.875 # between front wheel center and vehicle front [ok]
